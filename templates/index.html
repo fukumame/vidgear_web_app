@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+    <form class="row g-3" action="/upload" enctype="multipart/form-data" method="post">
+        <div class="col-12">
+            <div class="mb-2">
+                <label for="formFile" class="form-label">Video File Path</label>
+                <input name="video_file" class="form-control" type="file" id="formFile" accept="video/*" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="crop_width" class="form-label">Crop Width</label>
+            <input type="number" name="crop_width" class="form-control" id="crop_width">
+        </div>
+        <div class="col-md-6">
+            <label for="crop_height" class="form-label">Crop Height</label>
+            <input type="number" name="crop_height" class="form-control" id="crop_height">
+        </div>
+        <div class="col-12 mt-4">
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </div>
+    </form>
+{% endblock %}
