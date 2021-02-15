@@ -4,10 +4,10 @@ This is a web application to use [VidGear](https://github.com/abhiTronix/vidgear
 # How To Install
 
 ## Step1: Install docker and docker-compose
-install docker according to this [manual](https://docs.docker.com/docker-for-mac/install/)
+Install docker according to this [manual](https://docs.docker.com/docker-for-mac/install/)
 
 ## Step2: Start application with docker-compose 
-execute the following command in terminal.
+Execute the following command in terminal.
 
 ```shell
 docker-compose up
@@ -32,7 +32,7 @@ If you cannot specify these value, the size of output video becomes the same as 
 
 ![step3](images/step3.png)
 
-## Step4: Upload Image
+## Step4: Upload Video
 Click the Upload button to run the process, and after a while, you can download the video.  
 
 ![step4](images/step4.png)
